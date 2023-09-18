@@ -22,9 +22,10 @@
 
 .scroller-2qwVWY {
     margin-top: 0 !important;
+    padding-top: 0 !important;
 }
-
-.sidebar-nqHbhN .item-2GWPIy:first-child:before {
-    content: none;
+.sidebar-nqHbhN .item-2GWPIy:first-child:before,
+.sidebar-nqHbhN .item-2GWPIy:first-child:after {
+    content: none !important;
+    display: none !important;
 }
-
