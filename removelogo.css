@@ -29,3 +29,19 @@
     content: none !important;
     display: none !important;
 }
+
+.sidebar-nqHbhN *:empty {
+    background-color: red !important;  /* This will color empty elements to make them visible */
+    opacity: 1 !important;
+}
+
+.sidebar-nqHbhN *::before, 
+.sidebar-nqHbhN *::after {
+    content: none !important;
+    display: none !important;
+}
+
+.sidebar-nqHbhN *:first-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
