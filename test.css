@@ -544,12 +544,6 @@ textarea,
   font-size: 10px;
   order: 1;
 }
-.typeMacOS-3V4xXE:before {
-  content: "CV";
-  color: var(--main-color);
-  font-weight: 700;
-  text-shadow: 0 0 3px;
-}
 .tabBar-1_P75h {
   border-bottom: none;
 }
