@@ -491,7 +491,12 @@ textarea,
   font-size: 14px;
   text-shadow: 0 0 3px #000;
 }
-
+.typeWindows-2-g3UY > .wordmark-2u86JB:after {
+  content: "v6.3.0";
+  color: rgba(255, 255, 255, 0.3);
+  font-family: var(--code-font);
+  font-size: 10px;
+}
 .typeWindows-2-g3UY > .wordmark-2u86JB > svg {
   filter: drop-shadow(0 0 5px var(--main-color));
   margin-top: 6px;
@@ -545,7 +550,6 @@ textarea,
   font-weight: 700;
   text-shadow: 0 0 3px;
 }
-
 .tabBar-1_P75h {
   border-bottom: none;
 }
@@ -1164,7 +1168,13 @@ textarea,
   text-align: right;
   transform: translateX(50%);
 }
-
+.theme-dark .container-YkUktl:after {
+  content: "v6.3.0";
+  left: 50%;
+  text-align: left;
+  opacity: 0;
+  transform: translateX(50%) rotateX(90deg);
+}
 .theme-dark .container-YkUktl:hover:before {
   margin-right: 1px;
   transform: none;
